@@ -25,15 +25,16 @@ console.log(fullName);
 
 var frog = "frog" // string  
 var frog = isFriendly = "yes"; // number
-var frog = noFriendly
+var frog = isFriendly = "no"
 var isFriendly = true; // boolean
 console.log (typeof isFriendly);
 
 // question 4
 
 var orderHasShipped = "true"
-if (orderHasShipped === "true") {
+if (orderHasShipped === "false") {
 
 console.log(orderHasShipped);
-} else {console.log(The order did not ship);}
+} else {console.log("The order did not ship");
+}
  
